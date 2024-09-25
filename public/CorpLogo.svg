@@ -1,0 +1,26 @@
+<svg width="838" height="235" viewBox="0 0 838 235" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="CorpLogo">
+<g id="Logo">
+<rect id="Rectangle 1" x="121" y="5" width="22.6274" height="22.6274" transform="rotate(45 121 5)" fill="black"/>
+<rect id="Rectangle 3" x="16" y="97" width="22.6274" height="22.6274" transform="rotate(45 16 97)" fill="black"/>
+<rect id="Rectangle 4" x="116" y="102" width="22.6274" height="22.6274" transform="rotate(45 116 102)" fill="black"/>
+<rect id="Rectangle 5" x="45" y="166" width="22.6274" height="22.6274" transform="rotate(45 45 166)" fill="black"/>
+<rect id="Rectangle 6" x="108" y="203" width="22.6274" height="22.6274" transform="rotate(45 108 203)" fill="black"/>
+<rect id="Rectangle 2" x="53" y="35" width="22.6274" height="22.6274" transform="rotate(45 53 35)" fill="black"/>
+<rect id="Rectangle 7" x="184" y="42" width="22.6274" height="22.6274" transform="rotate(45 184 42)" fill="black"/>
+<rect id="Rectangle 8" x="213" y="111" width="22.6274" height="22.6274" transform="rotate(45 213 111)" fill="black"/>
+<rect id="Rectangle 9" x="175" y="175" width="22.6274" height="22.6274" transform="rotate(45 175 175)" fill="black"/>
+</g>
+<g id="Name">
+<path id="P" fill-rule="evenodd" clip-rule="evenodd" d="M782 99.5V190.5H794V158.5C837 176.5 859 105 808.5 99.5H782ZM811 109.5C837 116.5 825 163 794.5 148V109.5H811Z" fill="black"/>
+<path id="R" d="M736.5 159.5V99.5H748.5V112C758.5 97.5 769.192 93.1706 780.5 105L774.5 114.5C762.5 103.5 752.5 110 748.5 124.5V159.5H736.5Z" fill="black"/>
+<path id="O" fill-rule="evenodd" clip-rule="evenodd" d="M697 161C715.225 161 730 146.897 730 129.5C730 112.103 715.225 98 697 98C678.775 98 664 112.103 664 129.5C664 146.897 678.775 161 697 161ZM696.5 150C707.822 150 717 140.822 717 129.5C717 118.178 707.822 109 696.5 109C685.178 109 676 118.178 676 129.5C676 140.822 685.178 150 696.5 150Z" fill="black"/>
+<path id="C" d="M660 138C567 186 568.09 42.7679 659 88.0003V74.0003C548.5 31 549 198.5 660 153V138Z" fill="black"/>
+<path id="s" d="M564.5 116.5C564.5 116.5 545.762 107.927 543 114C540.238 120.073 562.828 126.958 563.5 138.5C563.846 141.039 563.809 142.462 563.5 145C557.707 163.71 541 166 520.5 156.5L522.5 143.5C522.5 143.5 524.009 145.184 535.5 147C535.5 147 545.5 148 545 144C544.5 140 541.986 137.749 536.5 134C515.129 122.159 523.529 94.5801 549 97.0002L566.5 102.5L564.5 116.5Z" fill="black"/>
+<path id="a" fill-rule="evenodd" clip-rule="evenodd" d="M486.5 155.5V159.5H504L512.5 99.0001L481.5 97.5C459.672 103.156 451.5 109.5 447.5 131C443.5 152.5 462.484 172.79 486.5 155.5ZM483 112.5C454.75 122.193 464.7 162.334 488.5 143L492.5 112.5H483Z" fill="black"/>
+<path id="l" d="M440.5 67.5H422.5L409.5 159.5H428L440.5 67.5Z" fill="black"/>
+<path id="t" d="M391.5 86.5H373L371 99H358.5L356 113H368.5C355.5 159 371.016 167.087 398.5 158.5V142.5C382.038 150.781 379.485 144.403 387 113H400.5L403 99H389.5L391.5 86.5Z" fill="black"/>
+<path id="A" fill-rule="evenodd" clip-rule="evenodd" d="M264.5 159.5L309.5 65.5H331L347 159.5H327L324 139.5H295L286.5 159.5H264.5ZM317.5 85.5L322 126H301L317.5 85.5Z" fill="black"/>
+</g>
+</g>
+</svg>

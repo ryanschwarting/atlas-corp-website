@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  color: rgb(var(--foreground-rgb));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+}
+
+.grid-rows-teamMember {
+  grid-template-rows: auto auto auto 1fr auto;
+}
+
+.parallax {
+  overflow: hidden;
+  letter-spacing: -2px;
+  line-height: 0.8;
+  margin: 0;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.scroller {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 64px;
+  display: flex;
+  align-items: center;
+  overflow: visible;
+  animation-name: loop;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 45s;
+  /* white-space: nowrap; */
+  /* display: flex; */
+  /* flex-wrap: nowrap; */
+}
+
+.scroller span {
+  display: block;
+  margin-right: 30px;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+code.hljs {
+  padding: 3px 5px;
+}
+/*!
+  Theme: GitHub Dark Dimmed
+  Description: Dark dimmed theme as seen on github.com
+  Author: github.com
+  Maintainer: @Hirse
+  Updated: 2021-05-15
+
+  Colors taken from GitHub's CSS
+*/
+.hljs {
+  color: #adbac7;
+  background: #22272e;
+  border-radius: 8px;
+}
+.hljs-doctag,
+.hljs-keyword,
+.hljs-meta .hljs-keyword,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-variable.language_ {
+  /* prettylights-syntax-keyword */
+  color: #f47067;
+}
+.hljs-title,
+.hljs-title.class_,
+.hljs-title.class_.inherited__,
+.hljs-title.function_ {
+  /* prettylights-syntax-entity */
+  color: #dcbdfb;
+}
+.hljs-attr,
+.hljs-attribute,
+.hljs-literal,
+.hljs-meta,
+.hljs-number,
+.hljs-operator,
+.hljs-variable,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-selector-id {
+  /* prettylights-syntax-constant */
+  color: #6cb6ff;
+}
+.hljs-regexp,
+.hljs-string,
+.hljs-meta .hljs-string {
+  /* prettylights-syntax-string */
+  color: #96d0ff;
+}
+.hljs-built_in,
+.hljs-symbol {
+  /* prettylights-syntax-variable */
+  color: #f69d50;
+}
+.hljs-comment,
+.hljs-code,
+.hljs-formula {
+  /* prettylights-syntax-comment */
+  color: #768390;
+}
+.hljs-name,
+.hljs-quote,
+.hljs-selector-tag,
+.hljs-selector-pseudo {
+  /* prettylights-syntax-entity-tag */
+  color: #8ddb8c;
+}
+.hljs-subst {
+  /* prettylights-syntax-storage-modifier-import */
+  color: #adbac7;
+}
+.hljs-section {
+  /* prettylights-syntax-markup-heading */
+  color: #316dca;
+  font-weight: bold;
+}
+.hljs-bullet {
+  /* prettylights-syntax-markup-list */
+  color: #eac55f;
+}
+.hljs-emphasis {
+  /* prettylights-syntax-markup-italic */
+  color: #adbac7;
+  font-style: italic;
+}
+.hljs-strong {
+  /* prettylights-syntax-markup-bold */
+  color: #adbac7;
+  font-weight: bold;
+}
+.hljs-addition {
+  /* prettylights-syntax-markup-inserted */
+  color: #b4f1b4;
+  background-color: #1b4721;
+}
+.hljs-deletion {
+  /* prettylights-syntax-markup-deleted */
+  color: #ffd8d3;
+  background-color: #78191b;
+}
+.hljs-char.escape_,
+.hljs-link,
+.hljs-params,
+.hljs-property,
+.hljs-punctuation,
+.hljs-tag {
+  /* purposely ignored */
+}
